@@ -6,24 +6,21 @@
 
 **Analyze. Segment. Learn Smarter.**
 
-An ML-powered full-stack application that discovers learner segments
-and generates personalized course recommendations based on student profiles.
+An ML-powered full-stack application that analyzes student profiles, identifies learner segments using K-Means clustering, and generates personalized course recommendations.
 
-<br />
+<br>
 
-[![React](https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-[![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Scikit Learn](https://img.shields.io/badge/ML-Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
-[![SQLite](https://img.shields.io/badge/Database-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+![Frontend](https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![Backend](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![ML](https://img.shields.io/badge/ML-Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Database](https://img.shields.io/badge/Database-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
-<br />
+<br>
 
-**[🚀 Launch Application](#-running-the-project-locally)**
-&nbsp;&nbsp;•&nbsp;&nbsp;
-**[🧠 ML Pipeline](#-machine-learning-pipeline)**
-&nbsp;&nbsp;•&nbsp;&nbsp;
-**[🏗️ Architecture](#️-system-architecture)**
+[🚀 Launch Application](http://localhost:5173) •
+[🧠 ML Pipeline](#-machine-learning-pipeline) •
+[🏗️ Architecture](#️-system-architecture)
 
 </div>
 
@@ -31,10 +28,9 @@ and generates personalized course recommendations based on student profiles.
 
 ## ✨ What is EduMatch AI?
 
-EduMatch AI is a full-stack machine learning application designed to help
-students discover learning opportunities that match their individual profiles.
+EduMatch AI is a full-stack machine learning application designed to help students discover learning opportunities that match their individual profiles.
 
-A student provides:
+The system takes a student's:
 
 - Age
 - Skill level
@@ -42,17 +38,33 @@ A student provides:
 - Preferred course type
 - Preferred duration
 
-The system then:
+and processes this information through a machine learning pipeline to:
+
+1. Engineer meaningful student features
+2. Segment students using K-Means clustering
+3. Identify the student's learning segment
+4. Score available courses
+5. Generate personalized course recommendations
+
+### The complete flow
 
 ```text
 Student Profile
-      ↓
+       │
+       ▼
 Feature Engineering
-      ↓
-K-Means Segmentation
-      ↓
+       │
+       ▼
+Preprocessing & Scaling
+       │
+       ▼
+K-Means Clustering
+       │
+       ▼
 Learner Segment
-      ↓
-Course Recommendation Engine
-      ↓
+       │
+       ▼
+Recommendation Engine
+       │
+       ▼
 Personalized Learning Path
