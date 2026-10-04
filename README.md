@@ -1,4 +1,6 @@
-<div align="center">
+<p align="center">
+  <img src="docs/edumatch-banner.svg" alt="EduMatch AI Banner" width="100%">
+</p>
 
 # ⚡ EduMatch AI
 
