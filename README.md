@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/anjancodes53/edumatch-ai/main/docs/edumatch-banner.svg" alt="EduMatch AI Banner" width="100%">
+  <img src="https://raw.githubusercontent.com/anjancodes53/edumatch-ai/main/docs/edumatch-banner.png" alt="EduMatch AI Banner" width="100%">
 </p>
 
 <h1 align="center">⚡ EduMatch AI</h1>
@@ -413,3 +413,4 @@ The project research paper covers the dataset, methodology, K-Means evaluation, 
   <strong>EduMatch AI</strong><br>
   Analyze. Segment. Learn Smarter.
 </p>
+
