@@ -1,0 +1,21 @@
+id,title,category,skill_level,course_type,duration,rating,platform,platform_url
+C001,Python for Data Science,Data Science,Beginner,Video Courses,Short (< 4 weeks),4.7,NPTEL,https://www.nptel.ac.in/courses
+C002,Machine Learning Fundamentals,Machine Learning,Intermediate,Interactive,Medium (1-3 months),4.8,Coursera,https://www.coursera.org/search?query=machine%20learning
+C003,Deep Learning with Python,Artificial Intelligence,Advanced,Project Based,Long (3+ months),4.9,Coursera,https://www.coursera.org/search?query=deep%20learning
+C004,Artificial Intelligence Foundations,Artificial Intelligence,Intermediate,Interactive,Medium (1-3 months),4.7,Coursera,https://www.coursera.org/search?query=artificial%20intelligence
+C005,Data Analytics with Python,Data Science,Beginner,Video Courses,Short (< 4 weeks),4.6,NPTEL,https://www.nptel.ac.in/courses
+C006,Full Stack Web Development,Web Development,Intermediate,Project Based,Long (3+ months),4.8,Coursera,https://www.coursera.org/search?query=full%20stack%20web%20development
+C007,Modern Frontend Development,Web Development,Beginner,Video Courses,Short (< 4 weeks),4.6,Coursera,https://www.coursera.org/search?query=frontend%20development
+C008,React Application Development,App Development,Intermediate,Project Based,Medium (1-3 months),4.8,Coursera,https://www.coursera.org/search?query=react
+C009,Cloud Computing Fundamentals,Cloud Computing,Beginner,Video Courses,Short (< 4 weeks),4.5,AWS Skill Builder,https://skillbuilder.aws/
+C010,AWS Cloud Projects,Cloud Computing,Intermediate,Project Based,Medium (1-3 months),4.7,AWS Skill Builder,https://skillbuilder.aws/
+C011,IoT Fundamentals,IoT,Intermediate,Interactive,Medium (1-3 months),4.7,NPTEL,https://www.nptel.ac.in/courses
+C012,IoT with Arduino,IoT,Beginner,Project Based,Short (< 4 weeks),4.6,NPTEL,https://www.nptel.ac.in/courses
+C013,Cybersecurity Fundamentals,Cybersecurity,Beginner,Video Courses,Short (< 4 weeks),4.7,edX,https://www.edx.org/search?q=cybersecurity
+C014,Ethical Hacking and Network Security,Cybersecurity,Advanced,Project Based,Long (3+ months),4.8,edX,https://www.edx.org/search?q=ethical%20hacking
+C015,Network Security Essentials,Cybersecurity,Intermediate,Interactive,Medium (1-3 months),4.7,edX,https://www.edx.org/search?q=network%20security
+C016,Machine Learning Projects,Machine Learning,Intermediate,Project Based,Long (3+ months),4.9,Coursera,https://www.coursera.org/search?query=machine%20learning%20projects
+C017,Natural Language Processing,Artificial Intelligence,Advanced,Interactive,Long (3+ months),4.8,Coursera,https://www.coursera.org/search?query=natural%20language%20processing
+C018,Computer Vision with Deep Learning,Artificial Intelligence,Advanced,Project Based,Long (3+ months),4.9,Coursera,https://www.coursera.org/search?query=computer%20vision
+C019,SQL and Database Fundamentals,Data Science,Beginner,Video Courses,Short (< 4 weeks),4.5,NPTEL,https://www.nptel.ac.in/courses
+C020,Data Visualization with Python,Data Science,Intermediate,Interactive,Medium (1-3 months),4.7,Coursera,https://www.coursera.org/search?query=data%20visualization
