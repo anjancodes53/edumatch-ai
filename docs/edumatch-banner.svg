@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420" role="img" aria-labelledby="title desc">
+  <title id="title">EduMatch AI</title>
+  <desc id="desc">EduMatch AI banner with the tagline Analyze. Segment. Learn Smarter.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="52%" stop-color="#07152d"/>
+      <stop offset="100%" stop-color="#170a2e"/>
+    </linearGradient>
+    <linearGradient id="text" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="52%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="glow1">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity=".34"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity=".28"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="420" rx="26" fill="url(#bg)"/>
+  <circle cx="240" cy="80" r="260" fill="url(#glow1)"/>
+  <circle cx="1390" cy="340" r="300" fill="url(#glow2)"/>
+
+  <g stroke="#38bdf8" stroke-opacity=".22" stroke-width="2" fill="none">
+    <path d="M70 330 L230 235 L355 300 L500 180 L650 250"/>
+    <path d="M1060 110 L1180 190 L1300 120 L1470 225 L1540 155"/>
+    <path d="M1160 320 L1270 250 L1410 300 L1510 245"/>
+  </g>
+  <g fill="#22d3ee">
+    <circle cx="70" cy="330" r="5"/><circle cx="230" cy="235" r="6"/>
+    <circle cx="355" cy="300" r="5"/><circle cx="500" cy="180" r="6"/>
+    <circle cx="650" cy="250" r="5"/><circle cx="1060" cy="110" r="5"/>
+    <circle cx="1180" cy="190" r="6"/><circle cx="1300" cy="120" r="5"/>
+    <circle cx="1470" cy="225" r="6"/><circle cx="1540" cy="155" r="5"/>
+  </g>
+
+  <rect x="120" y="78" width="62" height="62" rx="16" fill="#22d3ee"/>
+  <text x="151" y="119" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="30" font-weight="700" fill="#03111f">E</text>
+
+  <text x="210" y="112" font-family="Arial, Helvetica, sans-serif"
+        font-size="27" font-weight="700" fill="#f8fafc">EduMatch AI</text>
+  <text x="210" y="137" font-family="Arial, Helvetica, sans-serif"
+        font-size="12" letter-spacing="4" fill="#64748b">INTELLIGENT LEARNING</text>
+
+  <text x="120" y="245" font-family="Arial, Helvetica, sans-serif"
+        font-size="66" font-weight="800" fill="#f8fafc">Analyze. Segment.</text>
+  <text x="120" y="318" font-family="Arial, Helvetica, sans-serif"
+        font-size="66" font-weight="800" fill="url(#text)">Learn Smarter.</text>
+
+  <text x="120" y="360" font-family="Arial, Helvetica, sans-serif"
+        font-size="17" fill="#94a3b8">
+    Student Segmentation &amp; Personalized Learning Recommendation System
+  </text>
+
+  <g transform="translate(1290 68)">
+    <rect width="190" height="44" rx="22" fill="#0f172a" stroke="#334155"/>
+    <circle cx="25" cy="22" r="6" fill="#22d3ee"/>
+    <text x="43" y="28" font-family="Arial, Helvetica, sans-serif"
+          font-size="14" fill="#cbd5e1">ML POWERED</text>
+  </g>
+</svg>
